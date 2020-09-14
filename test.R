@@ -22,16 +22,39 @@ df <- data.frame(x = runif(100,0,1),
 
 plot(df$x, df$y)
 library(ggplot2)
-ggplot(data = df,aes(x =x, y = y))+
+ggplot(data = df,
+       aes(x =x, y = y))+
 geom_point()
 
+# heading 1
 
-# hello Laura and Isaac - 
+
+
+We can work so quickly
 
 # From on a categorical column variable
 g <- ggplot(mpg, aes(manufacturer))
+
+
 g + geom_bar(aes(fill=class), width = 0.5) + 
+
   theme(axis.text.x = element_text(angle=65, vjust=0.6)) +
   labs(title="Categorywise Bar Chart", 
        subtitle="Manufacturer of vehicles", 
        caption="Source: Manufacturers from 'mpg' dataset")
+
+1+1
+
+
+
+
+
+
+
+
+
+runif(1)
+# hello I am typing...        
+
+
+Insane!
